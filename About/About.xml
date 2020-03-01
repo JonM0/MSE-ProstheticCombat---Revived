@@ -33,7 +33,7 @@ Put this mod after PCF and MSE.
 
 	<modDependencies>
 		<li>
-			<packageId>eJon.Revivals.ProstheticCombatFramework</packageId>
+			<packageId>Jon.Revivals.ProstheticCombatFramework</packageId>
 			<displayName>Prosthetic Combat Framework</displayName>
 			<steamWorkshopUrl></steamWorkshopUrl>
 		</li>
