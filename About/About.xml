@@ -43,5 +43,13 @@ Put this mod after PCF and MSE.
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2006968859</steamWorkshopUrl>
 		</li>
 	</modDependencies>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>Jon.Revivals.ProstheticCombatFramework</li>
+		<li>Abraxas.MSERevived</li>
+	</loadAfter>
+	<incompatibleWith>
+	</incompatibleWith>
 
 </ModMetaData>
