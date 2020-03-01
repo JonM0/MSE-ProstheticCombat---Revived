@@ -5,6 +5,7 @@
 		<defName>MSEPC_PCBSD_AR</defName>
 		<label>PCB SD-AR</label>
 		<labelNoun>an PCB SD-AR</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB SD-AR</toggleLabel>
@@ -51,6 +52,7 @@
 		<defName>MSEPC_PCBARM_AR</defName>
 		<label>PCB ARM-AR</label>
 		<labelNoun>an PCB ARM-AR</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB ARM-AR</toggleLabel>
@@ -97,6 +99,7 @@
 		<defName>MSEPC_PCBSD_SR</defName>
 		<label>PCB SD-SR</label>
 		<labelNoun>an PCB SD-SR</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB SD-SR</toggleLabel>
@@ -141,6 +144,7 @@
 		<defName>MSEPC_PCBARM_SR</defName>
 		<label>PCB ARM-SR</label>
 		<labelNoun>an PCB ARM-SR</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB ARM-SR</toggleLabel>
@@ -185,6 +189,7 @@
 		<defName>MSEPC_PCBHAND_M</defName>
 		<label>PCB HAND-M</label>
 		<labelNoun>an PCB HAND-M</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB HAND-M</toggleLabel>
@@ -231,6 +236,7 @@
 		<defName>MSEPC_VEBARM_R</defName>
 		<label>VEB ARM-R</label>
 		<labelNoun>a VEB ARM-R</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -263,6 +269,7 @@
 		<defName>MSEPC_VEBARM_A</defName>
 		<label>VEB ARM-A</label>
 		<labelNoun>an VEB ARM-A</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -295,6 +302,7 @@
 		<defName>MSEPC_VEBARM_MP</defName>
 		<label>VEB ARM-MP</label>
 		<labelNoun>a VEB ARM-MP</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -329,6 +337,7 @@
 		<defName>MSEPC_VEBARM_IL</defName>
 		<label>VEB ARM-IL</label>
 		<labelNoun>an VEB ARM-IL</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -393,6 +402,7 @@
 		<defName>MSEPC_VEBARM_PSG</defName>
 		<label>VEB ARM-PSG</label>
 		<labelNoun>a VEB ARM-PSG</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -425,6 +435,7 @@
 		<defName>MSEPC_VEBARM_CSG</defName>
 		<label>VEB ARM-CSG</label>
 		<labelNoun>a VEB ARM-CSG</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -457,6 +468,7 @@
 		<defName>MSEPC_VEBARM_HSMG</defName>
 		<label>VEB ARM-HSMG</label>
 		<labelNoun>a VEB ARM-HSMG</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -525,6 +537,7 @@
 		<defName>MSEPC_VEBARM_AR</defName>
 		<label>VEB ARM-AR</label>
 		<labelNoun>an VEB ARM-AR</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -559,6 +572,7 @@
 		<defName>MSEPC_VEBARM_SR</defName>
 		<label>VEB ARM-SR</label>
 		<labelNoun>a VEB ARM-SR</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -591,6 +605,7 @@
 		<defName>MSEPC_VEBARM_M</defName>
 		<label>VEB ARM-M</label>
 		<labelNoun>a VEB ARM-M</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>

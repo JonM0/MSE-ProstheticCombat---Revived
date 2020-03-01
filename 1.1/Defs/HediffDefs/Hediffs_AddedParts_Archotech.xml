@@ -4,6 +4,7 @@
 		<defName>MSEPC_PCAARM_CR</defName>
 		<label>PCA ARM-CR</label>
 		<labelNoun>a PCA ARM-CR</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCA ARM-CR</toggleLabel>
@@ -50,6 +51,7 @@
 		<defName>MSEPC_PCAARM_CL</defName>
 		<label>PCA ARM-CL</label>
 		<labelNoun>a PCA ARM-CL</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCA ARM-CL</toggleLabel>
@@ -94,6 +96,7 @@
 		<defName>MSEPC_PCSARM_CRLite</defName>
 		<label>PCS ARM-CR Lite</label>
 		<labelNoun>a PCS ARM-CR Lite</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-CR Lite</toggleLabel>
@@ -140,6 +143,7 @@
 		<defName>MSEPC_PCSARM_CLB</defName>
 		<label>PCS ARM-CLB</label>
 		<labelNoun>a PCS ARM-CLB</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-CLB</toggleLabel>
@@ -186,6 +190,7 @@
 		<defName>MSEPC_PCSARM_HCB</defName>
 		<label>PCS ARM-HCB</label>
 		<labelNoun>a PCS ARM-HCB</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-HCB</toggleLabel>
@@ -232,6 +237,7 @@
 		<defName>MSEPC_PCSARM_IC</defName>
 		<label>PCS ARM-IC</label>
 		<labelNoun>a PCS ARM-IC</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-IC</toggleLabel>
