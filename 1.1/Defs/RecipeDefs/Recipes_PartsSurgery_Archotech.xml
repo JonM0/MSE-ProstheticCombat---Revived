@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="MSEPC_SurgeryArchotech">
+		<defName>MSEPC_InstallPCAARM_CR</defName>
+		<label>install PCA ARM-CR</label>
+		<description>Install a PCA ARM-CR.</description>
+		<jobString>Installing PCA ARM-CR.</jobString>
+		<workAmount>6000</workAmount>
+		<skillRequirements>
+			<Medicine>12</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCAARM_CR</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCAARM_CR</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCAARM_CR</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryArchotech">
+		<defName>MSEPC_InstallPCAARM_CL</defName>
+		<label>install PCA ARM-CL</label>
+		<description>Install a PCA ARM-CL.</description>
+		<jobString>Installing PCA ARM-CL.</jobString>
+		<workAmount>6000</workAmount>
+		<skillRequirements>
+			<Medicine>12</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCAARM_CL</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCAARM_CL</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCAARM_CL</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryArchotech">
+		<defName>MSEPC_InstallPCSARM_CRLite</defName>
+		<label>install PCS ARM-CRLite</label>
+		<description>Install a PCS ARM-CRLite.</description>
+		<jobString>Installing PCS ARM-CRLite.</jobString>
+		<workAmount>4000</workAmount>
+		<skillRequirements>
+			<Medicine>12</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCSARM_CRLite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCSARM_CRLite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCSARM_CRLite</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryArchotech">
+		<defName>MSEPC_InstallPCSARM_CLB</defName>
+		<label>install PCS ARM-CLB</label>
+		<description>Install a PCS ARM-CLB.</description>
+		<jobString>Installing PCS ARM-CLB.</jobString>
+		<workAmount>6000</workAmount>
+		<skillRequirements>
+			<Medicine>12</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCSARM_CLB</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCSARM_CLB</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCSARM_CLB</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryArchotech">
+		<defName>MSEPC_InstallPCSARM_HCB</defName>
+		<label>install PCS ARM-HCB</label>
+		<description>Install a PCS ARM-HCB.</description>
+		<jobString>Installing PCS ARM-HCB.</jobString>
+		<workAmount>8000</workAmount>
+		<skillRequirements>
+			<Medicine>15</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCSARM_HCB</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCSARM_HCB</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCSARM_HCB</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryArchotech">
+		<defName>MSEPC_InstallPCSARM_IC</defName>
+		<label>install PCS ARM-IC</label>
+		<description>Install a PCS ARM-IC.</description>
+		<jobString>Installing PCS ARM-IC.</jobString>
+		<workAmount>8000</workAmount>
+		<skillRequirements>
+			<Medicine>15</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCSARM_IC</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCSARM_IC</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCSARM_IC</addsHediff>
+	</RecipeDef>
+
+</Defs>

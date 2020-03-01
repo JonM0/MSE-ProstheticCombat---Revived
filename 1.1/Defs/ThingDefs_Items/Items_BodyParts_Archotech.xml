@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MSEPC_BodyPartArchotechX">
+		<defName>MSEPC_PCAARM_CR</defName>
+		<label>PCA ARM-CR</label>
+		<description>An artifical weaponized arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. It also have mounted charge rifle weapon but only has half stats over normal charge rifle weapon. Requires archotech weapons research to install it.</description>
+		<costList>
+			<Uranium>10</Uranium>
+			<ComponentSpacer>2</ComponentSpacer>
+			<ArchotechArm>1</ArchotechArm>
+			<Gun_ChargeRifle>1</Gun_ChargeRifle>
+		</costList>
+		<statBases>
+			<MarketValue>6000</MarketValue>
+			<WorkToMake>150000</WorkToMake>
+			<Mass>8</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartArchotechX">
+		<defName>MSEPC_PCAARM_CL</defName>
+		<label>PCA ARM-CL</label>
+		<description>An artifical weaponized arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. It also have mounted charge lance weapon but only has half stats over normal charge lance weapon. Requires archotech weapons research to install it.</description>
+		<costList>
+			<Uranium>10</Uranium>
+			<ComponentSpacer>2</ComponentSpacer>
+			<ArchotechArm>1</ArchotechArm>
+			<Gun_ChargeLance>1</Gun_ChargeLance>
+		</costList>
+		<statBases>
+			<MarketValue>6800</MarketValue>
+			<WorkToMake>170000</WorkToMake>
+			<Mass>10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartArchotechXSpecial">
+		<defName>MSEPC_PCSARM_CRLite</defName>
+		<label>PCS ARM-CR Lite</label>
+		<description>An artifical weaponized arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. It also have mounted charge rifle weapon but only has half stats and take more to charge it's energy over normal charge rifle weapon. Requires archotech weapons research to install it.</description>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<ArchotechArm>1</ArchotechArm>
+			<Gun_ChargeRifle>1</Gun_ChargeRifle>
+		</costList>
+		<statBases>
+			<MarketValue>5000</MarketValue>
+			<WorkToMake>120000</WorkToMake>
+			<Mass>7</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartArchotechXSpecial">
+		<defName>MSEPC_PCSARM_CLB</defName>
+		<label>PCS ARM-CLB</label>
+		<description>An artifical weaponized arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. It also have mounted modified charge lance weapon. It only has half stats and more warmup time over normal charge lance weapon but it can do burst shot. Requires archotech weapons research to install it.</description>
+		<costList>
+			<Uranium>15</Uranium>
+			<ComponentSpacer>2</ComponentSpacer>
+			<ArchotechArm>1</ArchotechArm>
+			<Gun_ChargeLance>2</Gun_ChargeLance>
+		</costList>
+		<statBases>
+			<MarketValue>9000</MarketValue>
+			<WorkToMake>200000</WorkToMake>
+			<Mass>12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartArchotech">
+		<defName>MSEPC_PCSARM_HCB</defName>
+		<label>PCS ARM-HCB</label>
+		<description>An artifical weaponized arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. It also have mounted modified heavy charge blaster weapon. It only has half stats over normal heavy charge blaster weapon. Requires archotech weapons research to install it.</description>
+		<statBases>
+			<MarketValue>7000</MarketValue>
+			<Mass>25</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartArchotech">
+		<defName>MSEPC_PCSARM_IC</defName>
+		<label>PCS ARM-IC</label>
+		<description>An artifical weaponized arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. It also have mounted modified inferno cannon weapon. It only has half stats over normal inferno cannon weapon. Requires archotech weapons research to install it.</description>
+		<statBases>
+			<MarketValue>7000</MarketValue>
+			<Mass>23</Mass>
+		</statBases>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Verb Expansion Framework</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/ThingDef[@ParentName="MSEPC_BodyPartBionicX"][defName="MSEPC_VEBARM_R" or defName="MSEPC_VEBARM_A" or defName="MSEPC_VEBARM_MP" or defName="MSEPC_VEBARM_IL" or defName="MSEPC_VEBARM_BR" or defName="MSEPC_VEBARM_PSG" or defName="MSEPC_VEBARM_CSG" or defName="MSEPC_VEBARM_HSMG" or defName="MSEPC_VEBARM_LMG" or defName="MSEPC_VEBARM_AR" or defName="MSEPC_VEBARM_SR"]</xpath>
+							<attribute>Abstract</attribute>
+						</li>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/ThingDef[@ParentName="MSEPC_BodyPartBionicY"][defName="MSEPC_VEBARM_M"]</xpath>
+							<attribute>Abstract</attribute>
+						</li>
+
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/HediffDef[@ParentName="MSE_AddedBodyPartBionic"][defName="MSEPC_VEBARM_R" or defName="MSEPC_VEBARM_A" or defName="MSEPC_VEBARM_MP" or defName="MSEPC_VEBARM_IL" or defName="MSEPC_VEBARM_BR" or defName="MSEPC_VEBARM_PSG" or defName="MSEPC_VEBARM_CSG" or defName="MSEPC_VEBARM_HSMG" or defName="MSEPC_VEBARM_LMG" or defName="MSEPC_VEBARM_AR" or defName="MSEPC_VEBARM_SR" or defName="MSEPC_VEBARM_M"]</xpath>
+							<attribute>Abstract</attribute>
+						</li>
+
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/RecipeDef[@ParentName="MSEPC_SurgeryBionic"][defName="MSEPC_InstallVEBARM_R" or defName="MSEPC_InstallVEBARM_A" or defName="MSEPC_InstallVEBARM_MP" or defName="MSEPC_InstallVEBARM_IL" or defName="MSEPC_InstallVEBARM_BR" or defName="MSEPC_InstallVEBARM_PSG" or defName="MSEPC_InstallVEBARM_CSG" or defName="MSEPC_InstallVEBARM_HSMG" or defName="MSEPC_InstallVEBARM_LMG" or defName="MSEPC_InstallVEBARM_AR" or defName="MSEPC_InstallVEBARM_SR"]</xpath>
+							<attribute>Abstract</attribute>
+						</li>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/RecipeDef[@ParentName="MSEPC_SurgeryBionicM"][defName="MSEPC_VEBARM_M"]</xpath>
+							<attribute>Abstract</attribute>
+						</li>
+					</operations>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>-->
+
+</Patch>

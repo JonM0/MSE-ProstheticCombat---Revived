@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX">
+		<defName>MSEPC_PCBSD_AR</defName>
+		<label>PCB SD-AR</label>
+		<description>An advanced artificial weaponized shoulder. With its biogel nerve-link and lattice-dust healing system, it is better than a biological shoulder in almost every way. It also have mounted assault rifle weapon but only has half stats over normal assault rifle weapon. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>8</ComponentSpacer>
+			<BionicShoulder>1</BionicShoulder>
+			<Gun_AssaultRifle>1</Gun_AssaultRifle>
+		</costList>
+		<statBases>
+			<MarketValue>3600</MarketValue>
+			<WorkToMake>156000</WorkToMake>
+			<Mass>8.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX">
+		<defName>MSEPC_PCBARM_AR</defName>
+		<label>PCB ARM-AR</label>
+		<description>An advanced artificial weaponized shoulder. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It also have mounted assault rifle weapon but only has half stats over normal assault rifle weapon. It is better than a biological arm in almost every way. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>8</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_AssaultRifle>1</Gun_AssaultRifle>
+		</costList>
+		<statBases>
+			<MarketValue>3300</MarketValue>
+			<WorkToMake>132000</WorkToMake>
+			<Mass>7.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX">
+		<defName>MSEPC_PCBSD_SR</defName>
+		<label>PCB SD-SR</label>
+		<description>An advanced artificial weaponized shoulder. With its biogel nerve-link and lattice-dust healing system, it is better than a biological shoulder in almost every way. It also have mounted sniper rifle weapon but only has half stats over normal sniper rifle weapon. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>8</ComponentSpacer>
+			<BionicShoulder>1</BionicShoulder>
+			<Gun_SniperRifle>1</Gun_SniperRifle>
+		</costList>
+		<statBases>
+			<MarketValue>3700</MarketValue>
+			<WorkToMake>166000</WorkToMake>
+			<Mass>9.0</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX">
+		<defName>MSEPC_PCBARM_SR</defName>
+		<label>PCB ARM-SR</label>
+		<description>An advanced artificial weaponized shoulder. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It also have mounted sniper rifle weapon but only has half stats over normal sniper rifle weapon. It is better than a biological arm in almost every way. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>8</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_SniperRifle>1</Gun_SniperRifle>
+		</costList>
+		<statBases>
+			<MarketValue>3400</MarketValue>
+			<WorkToMake>142000</WorkToMake>
+			<Mass>8.0</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicY">
+		<defName>MSEPC_PCBHAND_M</defName>
+		<label>PCB HAND-M</label>
+		<description>An advanced artificial weaponized hand. With its biogel nerve-link and lattice-dust healing system, it is better than a biological hand in almost every way. It also have mounted minigun weapon but only has half stats over normal minigun weapon. Requires multibarrel bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>8</ComponentSpacer>
+			<BionicHand>1</BionicHand>
+			<Gun_Minigun>1</Gun_Minigun>
+		</costList>
+		<statBases>
+			<MarketValue>2600</MarketValue>
+			<WorkToMake>144000</WorkToMake>
+			<Mass>10.0</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_R</defName>
+		<label>VEB ARM-R</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include an ancient pattern double-action revolver. It's not very powerful, but has a decent range for a bionic pistol and is quick on the draw. It is better than a biological arm in almost every way. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_Revolver>1</Gun_Revolver>
+		</costList>
+		<statBases>
+			<MarketValue>1750</MarketValue>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>5.4</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_A</defName>
+		<label>VEB ARM-A</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include an ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire. It is better than a biological arm in almost every way. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_Autopistol>1</Gun_Autopistol>
+		</costList>
+		<statBases>
+			<MarketValue>1800</MarketValue>
+			<WorkToMake>47000</WorkToMake>
+			<Mass>5.2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_MP</defName>
+		<label>VEB ARM-MP</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include a micro-submachine gun. It is short-ranged, but very light in the hands. Its rate of fire tends to make up for its weakness. It is better than a biological arm in almost every way. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_MachinePistol>1</Gun_MachinePistol>
+		</costList>
+		<statBases>
+			<MarketValue>1900</MarketValue>
+			<WorkToMake>56000</WorkToMake>
+			<Mass>6.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_IL</defName>
+		<label>VEB ARM-IL</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include a wide-barreled incendiary bolt launcher. The bolts create small incendiary explosions on impact, starting fires. It is better than a biological arm in almost every way. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_IncendiaryLauncher>1</Gun_IncendiaryLauncher>
+		</costList>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<WorkToMake>54000</WorkToMake>
+			<Mass>7.4</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_BR</defName>
+		<label>VEB ARM-BR</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include an ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_BoltActionRifle>1</Gun_BoltActionRifle>
+		</costList>
+		<statBases>
+			<MarketValue>1950</MarketValue>
+			<WorkToMake>57000</WorkToMake>
+			<Mass>7.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_PSG</defName>
+		<label>VEB ARM-PSG</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include an ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_PumpShotgun>1</Gun_PumpShotgun>
+		</costList>
+		<statBases>
+			<MarketValue>1950</MarketValue>
+			<WorkToMake>57000</WorkToMake>
+			<Mass>7.4</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_CSG</defName>
+		<label>VEB ARM-CSG</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include a magazine-fed fully automatic shotgun. It is even shorter-ranged than a typical bionic shotgun, but is extraordinarily dangerous due to burst fire. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_ChainShotgun>1</Gun_ChainShotgun>
+		</costList>
+		<statBases>
+			<MarketValue>2150</MarketValue>
+			<WorkToMake>86000</WorkToMake>
+			<Mass>8.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_HSMG</defName>
+		<label>VEB ARM-HSMG</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include a compact, wide-caliber slug-thrower. It's got a very short range, but it packs a punch and handles quite well. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_HeavySMG>1</Gun_HeavySMG>
+		</costList>
+		<statBases>
+			<MarketValue>2100</MarketValue>
+			<WorkToMake>75000</WorkToMake>
+			<Mass>7.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_LMG</defName>
+		<label>VEB ARM-LMG</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include a gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_LMG>1</Gun_LMG>
+		</costList>
+		<statBases>
+			<MarketValue>2200</MarketValue>
+			<WorkToMake>90000</WorkToMake>
+			<Mass>12.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_AR</defName>
+		<label>VEB ARM-AR</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include a general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_AssaultRifle>1</Gun_AssaultRifle>
+		</costList>
+		<statBases>
+			<MarketValue>2300</MarketValue>
+			<WorkToMake>99000</WorkToMake>
+			<Mass>7.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicX" Abstract="True">
+		<defName>MSEPC_VEBARM_SR</defName>
+		<label>VEB ARM-SR</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include an ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy and good power. Because it's so unwieldy, other bionic weapons outclass it at close range. Requires bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_SniperRifle>1</Gun_SniperRifle>
+		</costList>
+		<statBases>
+			<MarketValue>2350</MarketValue>
+			<WorkToMake>107000</WorkToMake>
+			<Mass>8.0</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MSEPC_BodyPartBionicY" Abstract="True">
+		<defName>MSEPC_VEBARM_M</defName>
+		<label>VEB ARM-M</label>
+		<description>An advanced artificial weaponized arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It include a multi-barrel machine gun. It's unwieldy, but once it starts firing it fires very fast. Where most self-loading bionic guns are powered by the energy from the gunpowder, the bionic minigun uses an electric motor to rapidly cycle cartridges through the weapon. Requires multibarrel bionics weapons research to install it.</description>
+		<costList> 
+			<ComponentSpacer>2</ComponentSpacer>
+			<BionicArm>1</BionicArm>
+			<Gun_Minigun>1</Gun_Minigun>
+		</costList>
+		<statBases>
+			<MarketValue>2300</MarketValue>
+			<WorkToMake>129000</WorkToMake>
+			<Mass>14.0</Mass>
+		</statBases>
+	</ThingDef>
+
+</Defs>

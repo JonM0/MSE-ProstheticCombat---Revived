@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!--=============================== Tier 4 ===================================-->
+
+	<ResearchProjectDef>
+		<defName>MSEPC_BionicWeapons</defName>
+		<label>bionic weapons</label>
+		<description>Build high-tech bionic weaponized body parts at a bionic machining table. Create your dreamed cyborg army. Requires a very skilled doctor to attach.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+			<li>MSE_SpecialBionics</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>MSE</tab>
+		<researchViewX>4</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>MSEPC_MultibarrelBionicWeapons</defName>
+		<label>multibarrel bionic weapons</label>
+		<description>Build high-tech multibarrel bionic weaponized body parts at a bionic machining table. Create your dreamed cyborg army. Requires a very skilled doctor to attach.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MultibarrelWeapons</li>
+			<li>MSEPC_BionicWeapons</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>MSE</tab>
+		<researchViewX>4</researchViewX>
+		<researchViewY>5.0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>MSEPC_ArchotechWeaponsSurgery</defName>
+		<label>archotech weapons surgery</label>
+		<description>Build high-tech archotech weapons at a archotech fabrication bench. Now you can create your dreamed cyborg army. Requires a very skilled doctor to attach.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>ChargedShot</li>
+			<li>MSE_ArchotechSurgery</li>
+			<li>MSEPC_MultibarrelBionicWeapons</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>MSE</tab>
+		<researchViewX>6</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>MSEPC_ArchotechWeapons</defName>
+		<label>archotech weapons</label>
+		<description>Build high-tech archotech weapons at a archotech fabrication bench. Now you can create your dreamed cyborg army. Requires a very skilled doctor to attach.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MSE_ArchotechCrafting</li>
+			<li>MSEPC_ArchotechWeaponsSurgery</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>MSE</tab>
+		<researchViewX>8</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef>
+
+	<!-- <ResearchProjectDef>
+		<defName>MSEPC_MultibarrelArchotechWeapons</defName>
+		<label>multibarrel archotech weapons</label>
+		<description>Build high-tech multibarrel archotech weapons at a archotech fabrication bench. Now you can create your dreamed cyborg army. Requires a very skilled doctor to attach.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MSEPC_ArchotechWeapons</li>
+			<li>MSEPC_MultibarrelBionicWeapons</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>MSE</tab>
+		<researchViewX>8</researchViewX>
+		<researchViewY>5.0</researchViewY>
+	</ResearchProjectDef> -->
+
+</Defs>

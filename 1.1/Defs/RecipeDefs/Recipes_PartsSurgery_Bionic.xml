@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic">
+		<defName>MSEPC_InstallPCBSD_AR</defName>
+		<label>install PCB SD-AR</label>
+		<description>Install a PCB SD-AR.</description>
+		<jobString>Installing PCB SD-AR.</jobString>
+		<workAmount>5000</workAmount>
+		<skillRequirements>
+			<Medicine>12</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCBSD_AR</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCBSD_AR</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCBSD_AR</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic">
+		<defName>MSEPC_InstallPCBARM_AR</defName>
+		<label>install PCB ARM-AR</label>
+		<description>Install a PCB ARM-AR.</description>
+		<jobString>Installing PCB ARM-AR.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCBARM_AR</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCBARM_AR</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCBARM_AR</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic">
+		<defName>MSEPC_InstallPCBSD_SR</defName>
+		<label>install PCB SD-SR</label>
+		<description>Install a PCB SD-SR.</description>
+		<jobString>Installing PCB SD-SR.</jobString>
+		<workAmount>5000</workAmount>
+		<skillRequirements>
+			<Medicine>12</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCBSD_SR</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCBSD_SR</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCBSD_SR</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic">
+		<defName>MSEPC_InstallPCBARM_SR</defName>
+		<label>install PCB ARM-SR</label>
+		<description>Install a PCB ARM-SR.</description>
+		<jobString>Installing PCB ARM-SR.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCBARM_SR</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCBARM_SR</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCBARM_SR</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionicM">
+		<defName>MSEPC_InstallPCBHAND_M</defName>
+		<label>install PCB HAND-M</label>
+		<description>Install a PCB HAND-M.</description>
+		<jobString>Installing PCB HAND-M.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_PCBHAND_M</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_PCBHAND_M</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_PCBHAND_M</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_R</defName>
+		<label>install VEB ARM-R</label>
+		<description>Install a VEB ARM-R.</description>
+		<jobString>Installing VEB ARM-R.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_R</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_R</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_R</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_A</defName>
+		<label>install VEB ARM-A</label>
+		<description>Install a VEB ARM-A.</description>
+		<jobString>Installing VEB ARM-A.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_A</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_A</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_A</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_MP</defName>
+		<label>install VEB ARM-MP</label>
+		<description>Install a VEB ARM-MP.</description>
+		<jobString>Installing VEB ARM-MP.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_MP</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_MP</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_MP</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_IL</defName>
+		<label>install VEB ARM-IL</label>
+		<description>Install a VEB ARM-IL.</description>
+		<jobString>Installing VEB ARM-IL.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_IL</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_IL</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_IL</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_BR</defName>
+		<label>install VEB ARM-BR</label>
+		<description>Install a VEB ARM-BR.</description>
+		<jobString>Installing VEB ARM-BR.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_BR</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_BR</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_BR</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_PSG</defName>
+		<label>install VEB ARM-PSG</label>
+		<description>Install a VEB ARM-PSG.</description>
+		<jobString>Installing VEB ARM-PSG.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_PSG</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_PSG</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_PSG</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_CSG</defName>
+		<label>install VEB ARM-CSG</label>
+		<description>Install a VEB ARM-CSG.</description>
+		<jobString>Installing VEB ARM-CSG.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_CSG</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_CSG</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_CSG</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_HSMG</defName>
+		<label>install VEB ARM-HSMG</label>
+		<description>Install a VEB ARM-HSMG.</description>
+		<jobString>Installing VEB ARM-HSMG.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_HSMG</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_HSMG</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_HSMG</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_LMG</defName>
+		<label>install VEB ARM-LMG</label>
+		<description>Install a VEB ARM-LMG.</description>
+		<jobString>Installing VEB ARM-LMG.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_LMG</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_LMG</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_LMG</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_AR</defName>
+		<label>install VEB ARM-AR</label>
+		<description>Install a VEB ARM-AR.</description>
+		<jobString>Installing VEB ARM-AR.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_AR</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_AR</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_AR</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionic" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_SR</defName>
+		<label>install VEB ARM-SR</label>
+		<description>Install a VEB ARM-SR.</description>
+		<jobString>Installing VEB ARM-SR.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_SR</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_SR</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_SR</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MSEPC_SurgeryBionicM" Abstract="True">
+		<defName>MSEPC_InstallVEBARM_M</defName>
+		<label>install VEB ARM-M</label>
+		<description>Install a VEB ARM-M.</description>
+		<jobString>Installing VEB ARM-M.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MSEPC_VEBARM_M</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MSEPC_VEBARM_M</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MSEPC_VEBARM_M</addsHediff>
+	</RecipeDef>
+
+</Defs>

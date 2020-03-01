@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic">
+		<defName>MSEPC_PCBSD_AR</defName>
+		<label>PCB SD-AR</label>
+		<labelNoun>an PCB SD-AR</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCB SD-AR</toggleLabel>
+				<toggleDescription>PCB SD-AR ({0})\n\nA weaponized bionic {1}. With its mounted assault rifle weapon, it has good range, decent power, and good accuracy bionic weapon.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>assault rifle</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.30</accuracyTouch>
+						<accuracyShort>0.35</accuracyShort>
+						<accuracyMedium>0.33</accuracyMedium>
+						<accuracyLong>0.28</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
+						<warmupTime>1.85</warmupTime>
+						<range>30.9</range>
+						<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+						<burstShotCount>3</burstShotCount>
+						<soundCast>Shot_AssaultRifle</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>assault rifle</label>
+						<description>PCB SD-AR - Assault rifle: A weapon that mounted to your pawn {0}. A general-purpose bionic gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy. It only has half stats over normal assault rifle weapon.</description>
+						<uiIconPath>UI/Icons/Prosthetic/BulletSB</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCBSD_AR</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic">
+		<defName>MSEPC_PCBARM_AR</defName>
+		<label>PCB ARM-AR</label>
+		<labelNoun>an PCB ARM-AR</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCB ARM-AR</toggleLabel>
+				<toggleDescription>PCB ARM-AR ({0})\n\nA weaponized bionic {1}. With its mounted assault rifle weapon, it has good range, decent power, and good accuracy bionic weapon.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>assault rifle</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.30</accuracyTouch>
+						<accuracyShort>0.35</accuracyShort>
+						<accuracyMedium>0.33</accuracyMedium>
+						<accuracyLong>0.28</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
+						<warmupTime>1.85</warmupTime>
+						<range>30.9</range>
+						<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+						<burstShotCount>3</burstShotCount>
+						<soundCast>Shot_AssaultRifle</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>assault rifle</label>
+						<description>PCB ARM-AR - Assault rifle: A weapon that mounted to your pawn {0}. A general-purpose gas-operated bionic assault rifle for field or urban combat. It has good range, decent power, and good accuracy. It only has half stats over normal assault rifle weapon.</description>
+						<uiIconPath>UI/Icons/Prosthetic/BulletSB</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCBARM_AR</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic">
+		<defName>MSEPC_PCBSD_SR</defName>
+		<label>PCB SD-SR</label>
+		<labelNoun>an PCB SD-SR</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCB SD-SR</toggleLabel>
+				<toggleDescription>PCB SD-SR ({0})\n\nA weaponized bionic {1}. With its mounted sniper rifle weapon, it has an exceptionally long range, great accuracy and good power bionic weapon. Because it's so unwieldy, other bionic weapons outclass it at close range.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/SniperRifle</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>sniper rifle</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.25</accuracyTouch>
+						<accuracyShort>0.35</accuracyShort>
+						<accuracyMedium>0.43</accuracyMedium>
+						<accuracyLong>0.44</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_SniperRifle</defaultProjectile>
+						<warmupTime>4.65</warmupTime>
+						<range>44.9</range>
+						<soundCast>Shot_SniperRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>sniper rifle</label>
+						<description>PCB SD-SR - Sniper rifle: A weapon that mounted to your pawn {0}. An ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy and good power. Because it's so unwieldy, other bionic weapons outclass it at close range. It only has half stats over normal sniper rifle weapon.</description>
+						<uiIconPath>UI/Icons/Prosthetic/BulletB</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCBSD_SR</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic">
+		<defName>MSEPC_PCBARM_SR</defName>
+		<label>PCB ARM-SR</label>
+		<labelNoun>an PCB ARM-SR</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCB ARM-SR</toggleLabel>
+				<toggleDescription>PCB ARM-SR ({0})\n\nA weaponized bionic {1}. With its mounted sniper rifle weapon, it has an exceptionally long range, great accuracy and good power bionic weapon. Because it's so unwieldy, other bionic weapons outclass it at close range.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/SniperRifle</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>sniper rifle</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.25</accuracyTouch>
+						<accuracyShort>0.35</accuracyShort>
+						<accuracyMedium>0.43</accuracyMedium>
+						<accuracyLong>0.44</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_SniperRifle</defaultProjectile>
+						<warmupTime>4.65</warmupTime>
+						<range>44.9</range>
+						<soundCast>Shot_SniperRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>sniper rifle</label>
+						<description>PCB ARM-SR - Sniper rifle: A weapon that mounted to your pawn {0}. An ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy and good power. Because it's so unwieldy, other bionic weapons outclass it at close range. It only has half stats over normal sniper rifle weapon.</description>
+						<uiIconPath>UI/Icons/Prosthetic/BulletB</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCBARM_SR</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic">
+		<defName>MSEPC_PCBHAND_M</defName>
+		<label>PCB HAND-M</label>
+		<labelNoun>an PCB HAND-M</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCB HAND-M</toggleLabel>
+				<toggleDescription>PCB HAND-M ({0})\n\nA weaponized bionic {1}. With its mounted minigun weapon, it's unwieldy, but once it starts firing it fires very fast. Where most self-loading bionic guns are powered by the energy from the gunpowder, the bionic minigun uses an electric motor to rapidly cycle cartridges through the weapon.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/Minigun</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>minigun</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.08</accuracyTouch>
+						<accuracyShort>0.13</accuracyShort>
+						<accuracyMedium>0.13</accuracyMedium>
+						<accuracyLong>0.09</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_Minigun</defaultProjectile>
+						<warmupTime>3.65</warmupTime>
+						<range>44.9</range>
+						<burstShotCount>25</burstShotCount>
+						<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+						<soundCast>Shot_Minigun</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>minigun</label>
+						<description>PCB HAND-M - Minigun: A weapon that mounted to your pawn {0}. A multi-barrel machine gun. It's unwieldy, but once it starts firing it fires very fast. Where most self-loading guns are powered by the energy from the gunpowder, the minigun uses an electric motor to rapidly cycle cartridges through the weapon. It only has half stats over normal minigun weapon.</description>
+						<uiIconPath>UI/Icons/Prosthetic/BulletSB</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCBHAND_M</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_R</defName>
+		<label>VEB ARM-R</label>
+		<labelNoun>a VEB ARM-R</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-R</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.80</accuracyTouch>
+						<accuracyShort>0.75</accuracyShort>
+						<accuracyMedium>0.45</accuracyMedium>
+						<accuracyLong>0.35</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_Revolver</defaultProjectile>
+						<warmupTime>1.10</warmupTime>
+						<range>25.9</range>
+						<soundCast>Shot_Revolver</soundCast>
+						<soundCastTail>GunTail_Light</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_R</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_A</defName>
+		<label>VEB ARM-A</label>
+		<labelNoun>an VEB ARM-A</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-A</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.80</accuracyTouch>
+						<accuracyShort>0.70</accuracyShort>
+						<accuracyMedium>0.40</accuracyMedium>
+						<accuracyLong>0.30</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_Autopistol</defaultProjectile>
+						<warmupTime>0.80</warmupTime>
+						<range>25.9</range>
+						<soundCast>Shot_Autopistol</soundCast>
+						<soundCastTail>GunTail_Light</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_A</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_MP</defName>
+		<label>VEB ARM-MP</label>
+		<labelNoun>a VEB ARM-MP</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-MP</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.90</accuracyTouch>
+						<accuracyShort>0.65</accuracyShort>
+						<accuracyMedium>0.35</accuracyMedium>
+						<accuracyLong>0.15</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_MachinePistol</defaultProjectile>
+						<warmupTime>0.95</warmupTime>
+						<range>19.9</range>
+						<burstShotCount>3</burstShotCount>
+						<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+						<soundCast>Shot_MachinePistol</soundCast>
+						<soundCastTail>GunTail_Light</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_MP</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_IL</defName>
+		<label>VEB ARM-IL</label>
+		<labelNoun>an VEB ARM-IL</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-IL</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
+						<warmupTime>5.25</warmupTime>
+						<range>23.9</range>
+						<forcedMissRadius>1.9</forcedMissRadius>
+						<soundCast>Shot_IncendiaryLauncher</soundCast>
+						<soundCastTail>GunTail_Light</soundCastTail>
+						<muzzleFlashScale>9</muzzleFlashScale>
+						<targetParams>
+							<canTargetLocations>true</canTargetLocations>
+						</targetParams>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_IL</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_BR</defName>
+		<label>VEB ARM-BR</label>
+		<labelNoun>a VEB ARM-BR</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-BR</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.65</accuracyTouch>
+						<accuracyShort>0.80</accuracyShort>
+						<accuracyMedium>0.90</accuracyMedium>
+						<accuracyLong>0.80</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_BoltActionRifle</defaultProjectile>
+						<warmupTime>2.45</warmupTime>
+						<range>36.9</range>
+						<soundCast>Shot_BoltActionRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_BR</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_PSG</defName>
+		<label>VEB ARM-PSG</label>
+		<labelNoun>a VEB ARM-PSG</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-PSG</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.80</accuracyTouch>
+						<accuracyShort>0.87</accuracyShort>
+						<accuracyMedium>0.77</accuracyMedium>
+						<accuracyLong>0.64</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_Shotgun</defaultProjectile>
+						<warmupTime>1.52</warmupTime>
+						<range>15.9</range>
+						<soundCast>Shot_Shotgun</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_PSG</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_CSG</defName>
+		<label>VEB ARM-CSG</label>
+		<labelNoun>a VEB ARM-CSG</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-CSG</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.57</accuracyTouch>
+						<accuracyShort>0.64</accuracyShort>
+						<accuracyMedium>0.55</accuracyMedium>
+						<accuracyLong>0.45</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_Shotgun</defaultProjectile>
+						<warmupTime>1.87</warmupTime>
+						<range>12.9</range>
+						<soundCast>Shot_Shotgun</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_CSG</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_HSMG</defName>
+		<label>VEB ARM-HSMG</label>
+		<labelNoun>a VEB ARM-HSMG</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-HSMG</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.85</accuracyTouch>
+						<accuracyShort>0.65</accuracyShort>
+						<accuracyMedium>0.35</accuracyMedium>
+						<accuracyLong>0.20</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_HeavySMG</defaultProjectile>
+						<warmupTime>1.73</warmupTime>
+						<range>22.9</range>
+						<burstShotCount>3</burstShotCount>
+						<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+						<soundCast>Shot_HeavySMG</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_HSMG</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_LMG</defName>
+		<label>VEB ARM-LMG</label>
+		<labelNoun>a VEB ARM-LMG</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-LMG</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.40</accuracyTouch>
+						<accuracyShort>0.48</accuracyShort>
+						<accuracyMedium>0.35</accuracyMedium>
+						<accuracyLong>0.26</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_LMG</defaultProjectile>
+						<warmupTime>2.70</warmupTime>
+						<range>25.9</range>
+						<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+						<burstShotCount>6</burstShotCount>
+						<soundCast>Shot_Minigun</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_LMG</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_AR</defName>
+		<label>VEB ARM-AR</label>
+		<labelNoun>an VEB ARM-AR</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-AR</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.60</accuracyTouch>
+						<accuracyShort>0.70</accuracyShort>
+						<accuracyMedium>0.65</accuracyMedium>
+						<accuracyLong>0.55</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
+						<warmupTime>1.85</warmupTime>
+						<range>30.9</range>
+						<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+						<burstShotCount>3</burstShotCount>
+						<soundCast>Shot_AssaultRifle</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_AR</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_SR</defName>
+		<label>VEB ARM-SR</label>
+		<labelNoun>a VEB ARM-SR</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-SR</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.50</accuracyTouch>
+						<accuracyShort>0.70</accuracyShort>
+						<accuracyMedium>0.86</accuracyMedium>
+						<accuracyLong>0.88</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_SniperRifle</defaultProjectile>
+						<warmupTime>4.65</warmupTime>
+						<range>44.9</range>
+						<soundCast>Shot_SniperRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_SR</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartBionic" Abstract="True">
+		<defName>MSEPC_VEBARM_M</defName>
+		<label>VEB ARM-M</label>
+		<labelNoun>a VEB ARM-M</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<label>VEB ARM-M</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.50</accuracyTouch>
+						<accuracyShort>0.70</accuracyShort>
+						<accuracyMedium>0.86</accuracyMedium>
+						<accuracyLong>0.88</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_SniperRifle</defaultProjectile>
+						<warmupTime>4.65</warmupTime>
+						<range>44.9</range>
+						<soundCast>Shot_SniperRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_VEBARM_M</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+</Defs>

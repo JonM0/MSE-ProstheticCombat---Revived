@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="MSE_AddedBodyPartArchotech">
+		<defName>MSEPC_PCAARM_CR</defName>
+		<label>PCA ARM-CR</label>
+		<labelNoun>a PCA ARM-CR</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCA ARM-CR</toggleLabel>
+				<toggleDescription>PCA ARM-CR ({0})\n\nA weaponized archotech {1}. With its mounted charge rifle weapon, it charges each shot with unstable energy as it leaves the barrel.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDY</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>charge rifle</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.28</accuracyTouch>
+						<accuracyShort>0.32</accuracyShort>
+						<accuracyMedium>0.28</accuracyMedium>
+						<accuracyLong>0.23</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_ChargeRifle</defaultProjectile>
+						<warmupTime>2.00</warmupTime>
+						<range>25.9</range>
+						<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+						<burstShotCount>3</burstShotCount>
+						<soundCast>Shot_ChargeRifle</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>charge rifle</label>
+						<description>PCA ARM-CR - Charge rifle: A weapon that mounted to your pawn {0}. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done. It only has half stats over normal charge rifle weapon.</description>
+						<uiIconPath>UI/Icons/Prosthetic/ChargeB</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCAARM_CR</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartArchotech">
+		<defName>MSEPC_PCAARM_CL</defName>
+		<label>PCA ARM-CL</label>
+		<labelNoun>a PCA ARM-CL</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCA ARM-CL</toggleLabel>
+				<toggleDescription>PCA ARM-CL ({0})\n\nA weaponized archotech {1}. With its mounted charge lance weapon, it fires a single shot at high velocity to your pawn enemies and charging it with unstable energy as it leaves the acceleration rail.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDY</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeLance</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>charge lance</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.33</accuracyTouch>
+						<accuracyShort>0.43</accuracyShort>
+						<accuracyMedium>0.43</accuracyMedium>
+						<accuracyLong>0.38</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_ChargeLance</defaultProjectile>
+						<warmupTime>3.05</warmupTime>
+						<range>36.9</range>
+						<soundCast>ChargeLance_Fire</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>charge lance</label>
+						<description>PCA ARM-CL - Charge lance: A weapon that mounted to your pawn {0}. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration rail. It only has half stats over normal charge lance weapon.</description>
+						<uiIconPath>UI/Icons/Prosthetic/ChargeLance</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCAARM_CL</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartArchotechSpecial">
+		<defName>MSEPC_PCSARM_CRLite</defName>
+		<label>PCS ARM-CR Lite</label>
+		<labelNoun>a PCS ARM-CR Lite</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCS ARM-CR Lite</toggleLabel>
+				<toggleDescription>PCS ARM-CR Lite ({0})\n\nA weaponized archotech {1}. With its mounted charge rifle weapon, it charges each shot with unstable energy as it leaves the barrel. It lacks some uranium circuit so it take more time to charge it's energy.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGW</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>charge rifle</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.28</accuracyTouch>
+						<accuracyShort>0.32</accuracyShort>
+						<accuracyMedium>0.28</accuracyMedium>
+						<accuracyLong>0.23</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_ChargeRifle</defaultProjectile>
+						<warmupTime>2.30</warmupTime>
+						<range>25.9</range>
+						<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+						<burstShotCount>3</burstShotCount>
+						<soundCast>Shot_ChargeRifle</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>charge rifle</label>
+						<description>PCS ARM-CR Lite - Charge rifle: A weapon that mounted to your pawn {0}. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done. It only has half stats over normal charge rifle weapon and take more time to charge it's energy.</description>
+						<uiIconPath>UI/Icons/Prosthetic/ChargeB</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCSARM_CRLite</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartArchotechSpecial">
+		<defName>MSEPC_PCSARM_CLB</defName>
+		<label>PCS ARM-CLB</label>
+		<labelNoun>a PCS ARM-CLB</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCS ARM-CLB</toggleLabel>
+				<toggleDescription>PCS ARM-CLB ({0})\n\nA weaponized archotech {1}. With its mounted charge lance weapon, it fires a each shot at high velocity to your pawn enemies and charging it with unstable energy as it leaves the acceleration rail.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDB</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeLance</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>charge lance</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.33</accuracyTouch>
+						<accuracyShort>0.43</accuracyShort>
+						<accuracyMedium>0.43</accuracyMedium>
+						<accuracyLong>0.38</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_ChargeLance</defaultProjectile>
+						<warmupTime>4.58</warmupTime>
+						<range>36.9</range>
+						<ticksBetweenBurstShots>24</ticksBetweenBurstShots>
+						<burstShotCount>3</burstShotCount>
+						<soundCast>ChargeLance_Fire</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>charge lance</label>
+						<description>PCS ARM-CLB - Charge lance: A weapon that mounted to your pawn {0}. It fires a each shot at high velocity, charging it with unstable energy as it leaves the acceleration rail. It only has half stats over normal charge rifle weapon.</description>
+						<uiIconPath>UI/Icons/Prosthetic/ChargeLanceB</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCSARM_CLB</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartArchotechSpecial">
+		<defName>MSEPC_PCSARM_HCB</defName>
+		<label>PCS ARM-HCB</label>
+		<labelNoun>a PCS ARM-HCB</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCS ARM-HCB</toggleLabel>
+				<toggleDescription>PCS ARM-HCB ({0})\n\nA weaponized archotech {1}. With its mounted heavy charge blaster weapon, it can do pulse-charged rapid-fire blaster for area suppressive fire.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDP</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeBlasterHeavy</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>heavy charge blaster</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.09</accuracyTouch>
+						<accuracyShort>0.13</accuracyShort>
+						<accuracyMedium>0.13</accuracyMedium>
+						<accuracyLong>0.09</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
+						<warmupTime>4.95</warmupTime>
+						<range>26.9</range>
+						<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+						<burstShotCount>24</burstShotCount>
+						<soundCast>Shot_ChargeBlaster</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>heavy charge blaster</label>
+						<description>PCS ARM-HCB - Heavy charge blaster: A weapon that mounted to your pawn {0}. A pulse-charged rapid-fire blaster for area suppressive fire. It only has half stats over normal heavy charge blaster weapon.</description>
+						<uiIconPath>UI/Icons/Prosthetic/ChargeB</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCSARM_HCB</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="MSE_AddedBodyPartArchotechSpecial">
+		<defName>MSEPC_PCSARM_IC</defName>
+		<label>PCS ARM-IC</label>
+		<labelNoun>a PCS ARM-IC</labelNoun>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCS ARM-IC</toggleLabel>
+				<toggleDescription>PCS ARM-IC ({0})\n\nA weaponized archotech {1}. With its mounted inferno cannon, it can fires a large incendiary warhead.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDP</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/InfernoCannon</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>inferno cannon</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_InfernoCannon</defaultProjectile>
+						<forcedMissRadius>3.5</forcedMissRadius>
+						<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+						<warmupTime>5.45</warmupTime>
+						<range>26.9</range>
+						<soundCast>InfernoCannon_Fire</soundCast>
+						<soundCastTail>GunTail_Light</soundCastTail>
+						<muzzleFlashScale>12</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>inferno cannon</label>
+						<description>PCS ARM-IC - Inferno cannon: A weapon that mounted to your pawn {0}. An incendiary-shot mini-artillery device. It fires a large incendiary warhead. It only has half stats over normal inferno cannon weapon.</description>
+						<uiIconPath>UI/Icons/Prosthetic/InfernoCannon</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>MSEPC_PCSARM_IC</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+</Defs>

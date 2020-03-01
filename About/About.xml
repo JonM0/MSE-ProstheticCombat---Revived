@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<name>MSE - Prosthetic Combat - Revived</name>
+	<author>Oreno</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	
+	<packageId>Abraxas.MSERevived.ProstheticCombat</packageId>
+
+	<url>https://github.com/AbraxasWorks/MSE-ProstheticCombat---Revived</url>
+	
+	<description>
+	Credit for the creation of this mod goes to Oreno, I just didn't want to see it die.
+	&lt;b&gt;Not Just Another Combat Prostheses Expansion&lt;/b&gt;. An expansion of vanilla combat prosthetsis with exclusive weaponized prosthetic and MSE integration. It include ranged prosthesis that can really shoot. With PCF, it also can shot while your pawn use its gun.
+
+
+&lt;b&gt;&lt;size=18&gt;Features&lt;/size&gt;&lt;/b&gt;
+- Add new research projects.
+- About 10+ ranged prosthesis that can really shoot.
+- Support MSE part system feature. Waponized prosthesis can keep its child parts and ready for module.
+- Support MSE prosthesis adaptation system.
+- Support MSE implant system. You can also install implant on weaponized prosthesis part.
+- Weaponized prosthesis also can be found on trader and raider.
+- And many other features.
+
+
+&lt;b&gt;&lt;size=18&gt;Load Order&lt;/size&gt;&lt;/b&gt;
+Put this mod after PCF and MSE.
+</description>
+
+	<modDependencies>
+		<li>
+			<packageId>eJon.Revivals.ProstheticCombatFramework</packageId>
+			<displayName>Prosthetic Combat Framework</displayName>
+			<steamWorkshopUrl></steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Abraxas.MSERevived</packageId>
+			<displayName>Medical System Expansion - Revived</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2006968859</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+
+</ModMetaData>
