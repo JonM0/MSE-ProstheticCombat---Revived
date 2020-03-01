@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<RecipeDef Name="MSEPC_SurgeryBionic" ParentName="MSE_Surgery" Abstract="True">
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<surgerySuccessChanceFactor>1.05</surgerySuccessChanceFactor>
+	<RecipeDef Name="MSEPC_SurgeryBionic" ParentName="MSE_SurgeryBionic" Abstract="True">
 		<researchPrerequisite>MSEPC_BionicWeapons</researchPrerequisite>
 	</RecipeDef>
 
@@ -11,9 +9,7 @@
 		<researchPrerequisite>MSEPC_MultibarrelBionicWeapons</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef Name="MSEPC_SurgeryArchotech" ParentName="MSE_Surgery" Abstract="True">
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<surgerySuccessChanceFactor>1.10</surgerySuccessChanceFactor>
+	<RecipeDef Name="MSEPC_SurgeryArchotech" ParentName="MSE_SurgeryArchotech" Abstract="True">
 		<researchPrerequisite>MSEPC_ArchotechWeaponsSurgery</researchPrerequisite>
 	</RecipeDef>
 
