@@ -26,19 +26,7 @@
 	</ThingDef>
 
 	<ThingDef Name="MSEPC_BodyPartArchotech" ParentName="BodyPartArchotechBase" Abstract="True">
-		<!-- Vanilla Code -->
-		<!-- Because EPOE messed up vanilla BodyPartArchotechBase -->
-		<graphicData>
-			<texPath>Things/Item/Health/HealthItemArchotech</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.80</drawSize>
-		</graphicData>
-		<!-- Vanilla Code END -->
-
 		<techLevel>Archotech</techLevel>
-		<thingCategories>
-			<li>ArchotechProstheses</li>
-		</thingCategories>
 		<techHediffsTags>
 			<li>Archotech</li>
 		</techHediffsTags>
