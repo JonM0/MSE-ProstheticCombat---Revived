@@ -5,11 +5,11 @@
 		<defName>MSEPC_PCAARM_CR</defName>
 		<label>PCA ARM-CR</label>
 		<labelNoun>a PCA ARM-CR</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCA ARM-CR</toggleLabel>
 				<toggleDescription>PCA ARM-CR ({0})\n\nA weaponized archotech {1}. With its mounted charge rifle weapon, it charges each shot with unstable energy as it leaves the barrel.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDY</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -51,11 +51,11 @@
 		<defName>MSEPC_PCAARM_CL</defName>
 		<label>PCA ARM-CL</label>
 		<labelNoun>a PCA ARM-CL</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCA ARM-CL</toggleLabel>
 				<toggleDescription>PCA ARM-CL ({0})\n\nA weaponized archotech {1}. With its mounted charge lance weapon, it fires a single shot at high velocity to your pawn enemies and charging it with unstable energy as it leaves the acceleration rail.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDY</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeLance</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -95,11 +95,11 @@
 		<defName>MSEPC_PCSARM_CRLite</defName>
 		<label>PCS ARM-CR Lite</label>
 		<labelNoun>a PCS ARM-CR Lite</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-CR Lite</toggleLabel>
 				<toggleDescription>PCS ARM-CR Lite ({0})\n\nA weaponized archotech {1}. With its mounted charge rifle weapon, it charges each shot with unstable energy as it leaves the barrel. It lacks some uranium circuit so it take more time to charge it's energy.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGW</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -141,11 +141,11 @@
 		<defName>MSEPC_PCSARM_CLB</defName>
 		<label>PCS ARM-CLB</label>
 		<labelNoun>a PCS ARM-CLB</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-CLB</toggleLabel>
 				<toggleDescription>PCS ARM-CLB ({0})\n\nA weaponized archotech {1}. With its mounted charge lance weapon, it fires a each shot at high velocity to your pawn enemies and charging it with unstable energy as it leaves the acceleration rail.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDB</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeLance</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -187,11 +187,11 @@
 		<defName>MSEPC_PCSARM_HCB</defName>
 		<label>PCS ARM-HCB</label>
 		<labelNoun>a PCS ARM-HCB</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-HCB</toggleLabel>
 				<toggleDescription>PCS ARM-HCB ({0})\n\nA weaponized archotech {1}. With its mounted heavy charge blaster weapon, it can do pulse-charged rapid-fire blaster for area suppressive fire.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDP</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeBlasterHeavy</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -233,11 +233,11 @@
 		<defName>MSEPC_PCSARM_IC</defName>
 		<label>PCS ARM-IC</label>
 		<labelNoun>a PCS ARM-IC</labelNoun>
+		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-IC</toggleLabel>
 				<toggleDescription>PCS ARM-IC ({0})\n\nA weaponized archotech {1}. With its mounted inferno cannon, it can fires a large incendiary warhead.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDP</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/InfernoCannon</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -272,7 +272,7 @@
 	</HediffDef>
 	
 	<!-- Ported from PCF-->
-	<HediffDef ParentName="MSE_AddedBodyPartArchotech">
+	<!-- <HediffDef ParentName="MSE_AddedBodyPartArchotech">
 		<defName>ArchotechArm</defName>
 		<label>archotech arm</label>
 		<labelNoun>an archotech arm</labelNoun>
@@ -347,6 +347,6 @@
 			<solid>true</solid>
 			<partEfficiency>1.50</partEfficiency>
 		</addedPartProps>
-	</HediffDef>
+	</HediffDef> -->
 
 </Defs>
