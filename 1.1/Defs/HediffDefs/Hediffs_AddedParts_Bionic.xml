@@ -5,11 +5,11 @@
 		<defName>MSEPC_PCBSD_AR</defName>
 		<label>PCB SD-AR</label>
 		<labelNoun>an PCB SD-AR</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB SD-AR</toggleLabel>
 				<toggleDescription>PCB SD-AR ({0})\n\nA weaponized bionic {1}. With its mounted assault rifle weapon, it has good range, decent power, and good accuracy bionic weapon.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -51,11 +51,11 @@
 		<defName>MSEPC_PCBARM_AR</defName>
 		<label>PCB ARM-AR</label>
 		<labelNoun>an PCB ARM-AR</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB ARM-AR</toggleLabel>
 				<toggleDescription>PCB ARM-AR ({0})\n\nA weaponized bionic {1}. With its mounted assault rifle weapon, it has good range, decent power, and good accuracy bionic weapon.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -97,11 +97,11 @@
 		<defName>MSEPC_PCBSD_SR</defName>
 		<label>PCB SD-SR</label>
 		<labelNoun>an PCB SD-SR</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB SD-SR</toggleLabel>
 				<toggleDescription>PCB SD-SR ({0})\n\nA weaponized bionic {1}. With its mounted sniper rifle weapon, it has an exceptionally long range, great accuracy and good power bionic weapon. Because it's so unwieldy, other bionic weapons outclass it at close range.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/SniperRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -141,11 +141,11 @@
 		<defName>MSEPC_PCBARM_SR</defName>
 		<label>PCB ARM-SR</label>
 		<labelNoun>an PCB ARM-SR</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB ARM-SR</toggleLabel>
 				<toggleDescription>PCB ARM-SR ({0})\n\nA weaponized bionic {1}. With its mounted sniper rifle weapon, it has an exceptionally long range, great accuracy and good power bionic weapon. Because it's so unwieldy, other bionic weapons outclass it at close range.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/SniperRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -185,11 +185,11 @@
 		<defName>MSEPC_PCBHAND_M</defName>
 		<label>PCB HAND-M</label>
 		<labelNoun>an PCB HAND-M</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB HAND-M</toggleLabel>
 				<toggleDescription>PCB HAND-M ({0})\n\nA weaponized bionic {1}. With its mounted minigun weapon, it's unwieldy, but once it starts firing it fires very fast. Where most self-loading bionic guns are powered by the energy from the gunpowder, the bionic minigun uses an electric motor to rapidly cycle cartridges through the weapon.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/Minigun</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -231,7 +231,6 @@
 		<defName>MSEPC_VEBARM_R</defName>
 		<label>VEB ARM-R</label>
 		<labelNoun>a VEB ARM-R</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -264,7 +263,6 @@
 		<defName>MSEPC_VEBARM_A</defName>
 		<label>VEB ARM-A</label>
 		<labelNoun>an VEB ARM-A</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -297,7 +295,6 @@
 		<defName>MSEPC_VEBARM_MP</defName>
 		<label>VEB ARM-MP</label>
 		<labelNoun>a VEB ARM-MP</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -332,7 +329,6 @@
 		<defName>MSEPC_VEBARM_IL</defName>
 		<label>VEB ARM-IL</label>
 		<labelNoun>an VEB ARM-IL</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -365,7 +361,6 @@
 		<defName>MSEPC_VEBARM_BR</defName>
 		<label>VEB ARM-BR</label>
 		<labelNoun>a VEB ARM-BR</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -398,7 +393,6 @@
 		<defName>MSEPC_VEBARM_PSG</defName>
 		<label>VEB ARM-PSG</label>
 		<labelNoun>a VEB ARM-PSG</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -431,7 +425,6 @@
 		<defName>MSEPC_VEBARM_CSG</defName>
 		<label>VEB ARM-CSG</label>
 		<labelNoun>a VEB ARM-CSG</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -464,7 +457,6 @@
 		<defName>MSEPC_VEBARM_HSMG</defName>
 		<label>VEB ARM-HSMG</label>
 		<labelNoun>a VEB ARM-HSMG</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -499,7 +491,6 @@
 		<defName>MSEPC_VEBARM_LMG</defName>
 		<label>VEB ARM-LMG</label>
 		<labelNoun>a VEB ARM-LMG</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -534,7 +525,6 @@
 		<defName>MSEPC_VEBARM_AR</defName>
 		<label>VEB ARM-AR</label>
 		<labelNoun>an VEB ARM-AR</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -569,7 +559,6 @@
 		<defName>MSEPC_VEBARM_SR</defName>
 		<label>VEB ARM-SR</label>
 		<labelNoun>a VEB ARM-SR</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
@@ -602,7 +591,6 @@
 		<defName>MSEPC_VEBARM_M</defName>
 		<label>VEB ARM-M</label>
 		<labelNoun>a VEB ARM-M</labelNoun>
-		<description>Test. Fix Later</description>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
