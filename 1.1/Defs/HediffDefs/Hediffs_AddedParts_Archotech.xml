@@ -277,7 +277,7 @@
 	</HediffDef>
 	
 	<!-- Ported from PCF-->
-	<HediffDef ParentName="MSE_AddedBodyPartArchotech">
+	<!-- <HediffDef ParentName="MSE_AddedBodyPartArchotech">
 		<defName>ArchotechArm</defName>
 		<label>archotech arm</label>
 		<labelNoun>an archotech arm</labelNoun>
@@ -352,6 +352,6 @@
 			<solid>true</solid>
 			<partEfficiency>1.50</partEfficiency>
 		</addedPartProps>
-	</HediffDef>
+	</HediffDef> -->
 
 </Defs>
