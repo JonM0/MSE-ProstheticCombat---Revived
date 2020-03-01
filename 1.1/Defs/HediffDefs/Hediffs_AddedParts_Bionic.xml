@@ -9,7 +9,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB SD-AR</toggleLabel>
 				<toggleDescription>PCB SD-AR ({0})\n\nA weaponized bionic {1}. With its mounted assault rifle weapon, it has good range, decent power, and good accuracy bionic weapon.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -55,7 +55,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB ARM-AR</toggleLabel>
 				<toggleDescription>PCB ARM-AR ({0})\n\nA weaponized bionic {1}. With its mounted assault rifle weapon, it has good range, decent power, and good accuracy bionic weapon.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -101,7 +101,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB SD-SR</toggleLabel>
 				<toggleDescription>PCB SD-SR ({0})\n\nA weaponized bionic {1}. With its mounted sniper rifle weapon, it has an exceptionally long range, great accuracy and good power bionic weapon. Because it's so unwieldy, other bionic weapons outclass it at close range.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/SniperRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -145,7 +145,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB ARM-SR</toggleLabel>
 				<toggleDescription>PCB ARM-SR ({0})\n\nA weaponized bionic {1}. With its mounted sniper rifle weapon, it has an exceptionally long range, great accuracy and good power bionic weapon. Because it's so unwieldy, other bionic weapons outclass it at close range.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/SniperRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -189,7 +189,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCB HAND-M</toggleLabel>
 				<toggleDescription>PCB HAND-M ({0})\n\nA weaponized bionic {1}. With its mounted minigun weapon, it's unwieldy, but once it starts firing it fires very fast. Where most self-loading bionic guns are powered by the energy from the gunpowder, the bionic minigun uses an electric motor to rapidly cycle cartridges through the weapon.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGLG</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/Minigun</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>

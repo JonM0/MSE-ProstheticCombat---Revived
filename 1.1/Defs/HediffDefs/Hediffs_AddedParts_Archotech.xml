@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<HediffDef ParentName="MSE_AddedBodyPartArchotech">
 		<defName>MSEPC_PCAARM_CR</defName>
 		<label>PCA ARM-CR</label>
@@ -9,7 +8,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCA ARM-CR</toggleLabel>
 				<toggleDescription>PCA ARM-CR ({0})\n\nA weaponized archotech {1}. With its mounted charge rifle weapon, it charges each shot with unstable energy as it leaves the barrel.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDY</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDY</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -55,7 +54,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCA ARM-CL</toggleLabel>
 				<toggleDescription>PCA ARM-CL ({0})\n\nA weaponized archotech {1}. With its mounted charge lance weapon, it fires a single shot at high velocity to your pawn enemies and charging it with unstable energy as it leaves the acceleration rail.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDY</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDY</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeLance</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -99,7 +98,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-CR Lite</toggleLabel>
 				<toggleDescription>PCS ARM-CR Lite ({0})\n\nA weaponized archotech {1}. With its mounted charge rifle weapon, it charges each shot with unstable energy as it leaves the barrel. It lacks some uranium circuit so it take more time to charge it's energy.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGW</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGW</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -145,7 +144,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-CLB</toggleLabel>
 				<toggleDescription>PCS ARM-CLB ({0})\n\nA weaponized archotech {1}. With its mounted charge lance weapon, it fires a each shot at high velocity to your pawn enemies and charging it with unstable energy as it leaves the acceleration rail.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDB</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDB</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeLance</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -191,7 +190,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-HCB</toggleLabel>
 				<toggleDescription>PCS ARM-HCB ({0})\n\nA weaponized archotech {1}. With its mounted heavy charge blaster weapon, it can do pulse-charged rapid-fire blaster for area suppressive fire.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDP</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDP</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeBlasterHeavy</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
@@ -237,7 +236,7 @@
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
 				<toggleLabel>PCS ARM-IC</toggleLabel>
 				<toggleDescription>PCS ARM-IC ({0})\n\nA weaponized archotech {1}. With its mounted inferno cannon, it can fires a large incendiary warhead.</toggleDescription>
-				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDP</toggleBackgroundPath>
+				<!-- <toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGDP</toggleBackgroundPath> -->
 				<toggleIconPath>Things/Item/Equipment/WeaponRanged/InfernoCannon</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
